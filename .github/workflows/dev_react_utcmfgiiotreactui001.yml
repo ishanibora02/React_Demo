@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'UTCMFGIIOTReactUI001'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F75D6FE349054E3FBC09BC96FF06E61D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A9C6B41D1A304B3484966186813B6AA7 }}
           package: .
