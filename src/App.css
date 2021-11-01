@@ -1,0 +1,198 @@
+:root {
+  --machine-color: #a9a9a9;
+  --btn-bg: #757575;
+  --lime-green: #32cd32;
+  --default-font-size: 1rem;
+}
+
+.App {
+  text-align: center;
+  background-color: #006575;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  height: 200vh;
+  width: 100%;
+  color: #777;
+}
+
+.machineStyle {
+  background-color: var(--machine-color);
+  height: 25rem;
+  width: 30rem;
+  border-radius: 3px;
+  position: relative;
+}
+
+.hexagonMachineStyle {
+  background-color: var(--machine-color);
+  height: 25rem;
+  width: 32rem;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 90% 100%, 10% 100%, 0 85%);
+  border-radius: 5px;
+  position: relative;
+}
+
+.green-light {
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--lime-green);
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  border: 1px solid black;
+}
+
+.machineText {
+  font-size: 2rem;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 7rem 0;
+}
+
+.react-flow__arrow-head {
+  fill: #9acd32;
+}
+
+.react-flow__edge-path {
+  stroke-width: 5px;
+}
+
+.pipe2 {
+  background-color: var(--machine-color);
+  height: 1.65rem;
+  width: 31.5rem;
+  text-transform: uppercase;
+}
+
+.pipe3 {
+  background-color: var(--machine-color);
+  height: 1.65rem;
+  width: 30rem;
+  transform: rotate(-20deg);
+}
+
+.react-flow__node {
+  border: none;
+}
+
+.pipe6 {
+  background-color: var(--machine-color);
+  height: 1.75rem;
+  width: 42rem;
+}
+
+.pipe {
+  background-color: var(--machine-color);
+  width: 2rem;
+  height: 60rem;
+}
+
+.cs_btn {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.cs_btn-1 {
+  top: 1rem;
+  left: 4rem;
+}
+.cs_btn-2 {
+  top: 1rem;
+  right: 4rem;
+}
+
+.cs_btn-3 {
+  position: absolute;
+  bottom: 1rem;
+  right: 7rem;
+}
+
+.btn {
+  background-color: var(--btn-bg);
+  border: none;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  color: var(--lime-green);
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn span {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.bin_btn {
+  position: absolute;
+  top: 70%;
+  left: 57%;
+  transform: translate(-70%, -50%);
+}
+
+.clinker_btn {
+  position: absolute;
+  top: 0;
+  right: 4rem;
+  z-index: 3;
+}
+
+.ds_btn-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--lime-green);
+  border: none;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  font-size: 1.6rem;
+  /* cursor: pointer; */
+}
+
+.ds_btn-2 {
+  position: absolute;
+  top: 0;
+  left: 12.5rem;
+}
+
+.popup-box {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.box {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: hidden;
+}
+
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
