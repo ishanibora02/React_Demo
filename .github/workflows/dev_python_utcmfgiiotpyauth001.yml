@@ -35,5 +35,5 @@ jobs:
         with:
           app-name: 'UTCMFGIIOTpyauth001'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_828BD8167B4145E5BFB039F7827CBB5C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A5CBA0DD744541D89E80DE267E7EA326 }}
           package: '.\\app.zip'
